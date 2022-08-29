@@ -612,17 +612,17 @@ a {
     border: 10px solid;
     border-color: var(--secundary-bg-color);
     border-style: ridge;
-    padding: 1.5em;
+    padding: 5%;
     text-align: center;
   }
-  @media screen and (max-width: 700px) {
+  /* @media screen and (max-width: 700px) {
     .mainEspecBox {
       padding: 1em;
     }
     
-  } 
+  }  */
   .mainEspecBox p{
-    font-size: clamp(0.9rem, 1.2vw, 2rem);
+    font-size: clamp(0.8rem, 1.2vw, 2rem);
   }
 
 
@@ -633,15 +633,15 @@ a {
     border: 1px solid;
     border-color: var(--secundary-bg-color);
     border-style: dashed;
-    padding: 1.5em;
+    padding: 4%;
   }
   
-    @media screen and (max-width: 700px) {
+    /* @media screen and (max-width: 700px) {
     .especBox {
       padding: 1em;
     }
     
-  } 
+  }  */
   
   .espec1 {
     justify-self: center;
