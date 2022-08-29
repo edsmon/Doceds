@@ -117,7 +117,7 @@ a {
     float: right;
 
     font-family: 'Tulpen One','Titillium Web', sans-serif;;
-    font-size: clamp(1.2rem, 2vw, 3rem); 
+    font-size: clamp(0.8rem, 2vw, 3rem); 
     padding-top: 8px;
 }
 
@@ -137,7 +137,7 @@ a {
 }
 @media screen and (max-width: 600px) {
   .Menu {
-    padding: 8px 0px 2px 0px;
+    padding: 6px 0px 2px 0px;
     margin: 0px -1em 0px -1em;
   }
 }
@@ -150,7 +150,7 @@ a {
   text-align: center;
   text-decoration: none;
   font-family: 'Tulpen One','Titillium Web', sans-serif;
-  font-size: clamp(1.2rem, 2vw, 3rem);
+  font-size: clamp(0.8rem, 2vw, 3rem);
   cursor: pointer; 
 
   transition-duration: 0.4s;
@@ -242,7 +242,7 @@ a {
   padding: 2px 32px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Tulpen One', cursive;
+  font-family: 'Tulpen One','Titillium Web', sans-serif;
   font-size: clamp(1.8rem, 2vw, 3rem);
   cursor: pointer; 
 
