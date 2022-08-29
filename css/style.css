@@ -689,6 +689,7 @@ a {
     }
     .Formulario { 
       margin-top: 3em;
+
      }
   } 
 
@@ -706,7 +707,7 @@ a {
     text-align: center;
     grid-area: Formulario; 
     background-color: #93162028 ;
-    padding: 2em;
+    padding: 3em;
     border-radius: 10px;
   }
   form label {
