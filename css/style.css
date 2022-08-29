@@ -30,10 +30,10 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 { font-size: clamp(3.1rem, 4vw, 5rem); color: var(--secundary-bg-color); font-family: 'Tulpen One', cursive; }
-h2 { font-size: clamp(2.4rem, 3.3vw, 4.3rem); color: var(--main-bg-color); font-family: 'Tulpen One', cursive; padding: 10px;}
-h3 { font-size: clamp(1.7rem, 2.6vw, 3.6rem); color: var(--secundary-bg-color); font-family: 'Tulpen One', cursive;}
-h4 { font-size: clamp(1.2rem, 2vw, 3rem); color: var(--secundary-bg-color); font-family: 'Tulpen One', cursive;}
+h1 { font-size: clamp(3.1rem, 4vw, 5rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; }
+h2 { font-size: clamp(2.4rem, 3.3vw, 4.3rem); color: var(--main-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; padding: 10px;}
+h3 { font-size: clamp(1.7rem, 2.6vw, 3.6rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif;}
+h4 { font-size: clamp(1.2rem, 2vw, 3rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif;}
 h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
 
