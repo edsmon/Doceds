@@ -97,7 +97,18 @@ a {
     grid-area: Logo; 
     float: left;
     padding-top: 20px;
+    align-self: center;
 }
+.Logo img {
+  width: clamp(76px, 16vw, 109px); 
+  
+}
+
+/* @media screen and (max-width: 600px) {
+  .Logo img {
+    width: clamp(84px, 109px, 150px); 
+  }
+} */
 
 /*Menu in Navbar behavior*/
 
