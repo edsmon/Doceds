@@ -30,7 +30,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 { font-size: clamp(3.1rem, 4vw, 5rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; }
+h1 { font-size: clamp(2.8rem, 4vw, 5rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; }
 h2 { font-size: clamp(2.4rem, 3.3vw, 4.3rem); color: var(--main-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; padding: 10px;}
 h3 { font-size: clamp(1.7rem, 2.6vw, 3.6rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif;}
 h4 { font-size: clamp(1.2rem, 2vw, 3rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif;}
@@ -117,7 +117,7 @@ a {
     float: right;
 
     font-family: 'Tulpen One', cursive;
-    font-size: clamp(1.5rem, 2vw, 3rem); 
+    font-size: clamp(1.2rem, 2vw, 3rem); 
     padding-top: 8px;
 }
 
@@ -150,7 +150,7 @@ a {
   text-align: center;
   text-decoration: none;
   font-family: 'Tulpen One', cursive;
-  font-size: clamp(1.5rem, 2vw, 3rem);
+  font-size: clamp(1.2rem, 2vw, 3rem);
   cursor: pointer; 
 
   transition-duration: 0.4s;
