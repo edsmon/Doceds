@@ -116,7 +116,7 @@ a {
     grid-area: Menu; 
     float: right;
 
-    font-family: 'Tulpen One', cursive;
+    font-family: 'Tulpen One','Titillium Web', sans-serif;;
     font-size: clamp(1.2rem, 2vw, 3rem); 
     padding-top: 8px;
 }
@@ -149,7 +149,7 @@ a {
   padding: 0px 10px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Tulpen One', cursive;
+  font-family: 'Tulpen One','Titillium Web', sans-serif;
   font-size: clamp(1.2rem, 2vw, 3rem);
   cursor: pointer; 
 
