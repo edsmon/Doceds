@@ -545,7 +545,7 @@ a {
 }
 
 .metodoTextBox p{
-  font-size: clamp(0.8rem, 1.1vw, 2rem);
+  font-size: clamp(0.7rem, 1vw, 2rem);
 }
 
 .MetodoText { grid-area: MetodoText; }
@@ -682,9 +682,6 @@ a {
     border-top-color: lightgrey;
     border-top-width: thin;
 
-    border-bottom-style: solid;
-    border-bottom-color: lightgrey;
-    border-bottom-width: thin;
   }
   @media screen and (max-width: 700px) {
     .Contacto {
@@ -768,6 +765,7 @@ a {
   .Footer { 
     grid-area: Footer; 
     align-self: center;
+
   }
   .footerBox{
     text-align: center;
