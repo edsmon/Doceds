@@ -743,6 +743,7 @@ a {
     display: inline-block;
     font-size: clamp(0.8rem, 1vw, 2rem);
     padding: 10px 17px;
+    cursor: pointer;
   }
   
   .btn-red {
@@ -750,6 +751,7 @@ a {
     color: #fff;
     border: 2px solid var(--main-bg-color);
     border-radius: 5px;
+    cursor: pointer;
   }
   
   .contactoInfo1 { grid-area: contactoInfo1; align-self: center;}
