@@ -712,14 +712,14 @@ a {
     text-align: center;
     grid-area: Formulario; 
     background-color: #93162028 ;
-    padding: 3em;
+    padding: 5%;
     border-radius: 10px;
   }
   @media screen and (max-width: 700px) {
 
     .Formulario { 
       margin-top: 1em;
-      padding: 1em;
+      padding: 3%;
      }
   } 
 
