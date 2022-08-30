@@ -21,7 +21,7 @@
 html,
 body {
   background: url("../img/Bg.png") no-repeat top;
-  background-size: fixed;
+  background-size: cover;
   font-family: 'Titillium Web', sans-serif;
 
 }
