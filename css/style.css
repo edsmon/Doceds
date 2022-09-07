@@ -31,7 +31,7 @@ html {
   background-color: var(--main-bg-color);
 }
 
-h1 { font-size: clamp(2.8rem, 4vw, 5rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; }
+h1 { font-size: clamp(2.8rem, 5vw, 6rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; }
 h2 { font-size: clamp(2.4rem, 3.3vw, 4.3rem); color: var(--main-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif; padding: 10px;}
 h3 { font-size: clamp(1.7rem, 2.6vw, 3.6rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif;}
 h4 { font-size: clamp(1.2rem, 2vw, 3rem); color: var(--secundary-bg-color); font-family: 'Tulpen One','Titillium Web', sans-serif;}
@@ -137,6 +137,8 @@ a {
     margin: 0px -1em 0px -1em;
   }
 }
+
+/* Menu li on hover animation */
 
 .link{
   position: relative;
@@ -302,6 +304,8 @@ a {
 }
 
 .button:focus { outline:0; }
+
+
 
 /*Banner in Hero behavior*/
 
