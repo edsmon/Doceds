@@ -278,6 +278,44 @@ a {
 .heroBtnStyle a{
   color: var(--main-bg-color);
 }
+
+/* Btn  */
+
+
+
+/* Btn on hover animation */
+
+.horizontalMov{
+  animation: myAnim 16s ease-in-out 0s infinite alternate-reverse forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-0px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
 .button:hover{
   background: #fff;
   box-shadow: 0px 1px 5px 2px var(--terciary-bg-color);
@@ -304,7 +342,6 @@ a {
 }
 
 .button:focus { outline:0; }
-
 
 
 /*Banner in Hero behavior*/
