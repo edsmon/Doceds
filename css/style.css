@@ -704,7 +704,7 @@ a {
 
 .especTitleBox h2{
   color: var(--secundary-bg-color); 
-  
+  margin-bottom: -29px;
 }
 .especTitleBox{
   border-bottom-style: groove;
