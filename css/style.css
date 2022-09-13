@@ -880,12 +880,35 @@ a {
   .Footer { 
     grid-area: Footer; 
     align-self: center;
-
+    
   }
   .footerBox{
     text-align: center;
     color: var(--terciary-bg-color);
     font-style: italic;
     font-size: clamp(0.6rem, 0.8vw, 2rem);
+
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-top-width: thin;
+
+    padding-top: 1.5em;
   }
+  .LowerText{
+    font-size: clamp(0.5rem, 0.8vw, 1.5rem);
+  }
+  .IconOpacity{
+    opacity: 0.8;
+  }
+  .IconHoverAnimation:hover{
+    animation: scaleUp 1s ease 0s 1 normal both;
+  }
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
   
+    100% {
+      transform: scale(1.1);
+    }
+  }
