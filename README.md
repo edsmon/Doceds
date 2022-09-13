@@ -45,4 +45,25 @@ Con esta esquematización de los apartados y la información disponible hasta el
 
 ## Codificación
 
-El proyecto contemplaba una página sencilla, tanto para la empresa como para su tipo de usuario, por esta razón ...
+El proyecto contemplaba una página sencilla, tanto para la empresa como para su tipo de usuario, por esta razón tiene una base de básica de desarrollo web con HTML5 y CSS3. En cuestiones de estilo y comportamiento se pensaron animaciones básicas para agregar dinamismo a los apartados y los elementos que los componen. Algunos de ellos siendo on hover animations en botones, links del menú e íconos.
+
+Dentro de la etapa del wireframing también se pensó la responsividad de los apartados, viéndose reflejados de la siguiente manera:
+
+![EditGridBehavior](https://user-images.githubusercontent.com/79231683/189799738-a3510e51-d5f2-42fa-85da-313ca74a180a.png)
+
+~~Perdón por lo inentendible y el ordenado caos :laughing:.~~
+
+Cada sección tiene su fondo personalizado, el mismo fue pensado con las dimensiones para desktop y fue diseñado directamente en Figma para mayor facilidad en la edición y cambios posteriores. Para ver diseño fuente seguir [este link][Figma bg], en las otras páginas dentro del link también se encuentran el diseño del logo y la iconografía.
+
+### Por venir:
+
+Esta versión de la web (septiembre 2022), contempla una etapa temprana solo destinada a la fase de producción, sin embargo, se planea iterar en la incorporación de elementos como:
+
+- Trasition animations on scroll.
+- Backend propio para el control de formulario.
+- Solventar problemas de responsividad para una mejor experiencia mobile.
+- Gestión del dominio.
+- Y más cosas que sumen a la consolidación del proyecto online.
+
+
+[Figma bg]: https://www.figma.com/file/1lN5lu1DJ5JECjP9sALdXl/Doeds?node-id=2%3A2](https://www.figma.com/proto/1lN5lu1DJ5JECjP9sALdXl/Doeds?page-id=0%3A1&node-id=2%3A2&viewport=449%2C139%2C0.15&scaling=contain)](https://www.figma.com/proto/1lN5lu1DJ5JECjP9sALdXl/Doeds?page-id=0%3A1&node-id=2%3A2&viewport=449%2C267%2C0.15&scaling=contain)
